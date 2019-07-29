@@ -15,7 +15,7 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
-  -gph GPH              Gold that is reserved for bet per hour.
+  -gph GPH              Gold that is reserved for bet per hour. Default is 25 GP.
   -m MODIFIER, --modifier MODIFIER
-                        Difficulty modifier for location.
+                        Difficulty modifier for location. Default is 5.
 ```

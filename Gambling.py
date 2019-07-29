@@ -8,8 +8,8 @@ def get_args():
     parser.add_argument("deception", type=int, help="Deception check rolled by player.")
     parser.add_argument("hours", type=int, help="Number of hours to gamble.")
     parser.add_argument("gold", type=int, help="Amount of gold being bet.")
-    parser.add_argument("-gph", type=int, default=25, help="Gold that is reserved for bet per hour.")
-    parser.add_argument("-m", "--modifier", type=int, default=5, help="Difficulty modifier for location.")
+    parser.add_argument("-gph", type=int, default=25, help="Gold that is reserved for bet per hour. Default is 25.")
+    parser.add_argument("-m", "--modifier", type=int, default=5, help="Difficulty modifier for location. Default is 5")
     args = parser.parse_args()
     return args
 
